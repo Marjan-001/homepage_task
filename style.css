@@ -20,11 +20,13 @@
   margin: auto;
   padding: 0;
 }
+body {
+  background-color: #1b3936;
+}
 
 .header {
-  background-color: #1b3936;
-  width: 1400px;
-  height: 1400px;
+  width: 1440px;
+  margin: auto;
 }
 .navbar {
   display: flex;
@@ -125,8 +127,100 @@
   font-family: "Switzer-Variable";
 }
 
-.play-icon{
-    position: absolute;
-    bottom: 180px;
-    right:60px;
+.play-icon {
+  position: absolute;
+  bottom: 180px;
+  right: 100px;
+}
+.Info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 850px;
+  background: white;
+  margin-top: 400px;
+}
+.infoLeft {
+  margin-top: 70px;
+}
+
+.infoLeft p {
+  color: #1b3936;
+  font-family: "Switzer-Variable";
+  font-size: 24px;
+}
+.infoRight {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 70px;
+  color: #1b3936;
+}
+.infoRightCol1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#text-dense {
+  font-family: "Switzer-Variable";
+  font-size: 24px;
+}
+#Num {
+  font-size: 100px;
+  font-family: "Boska-Variable";
+  font-weight: 900;
+}
+#subtext {
+  font-size: 24px;
+  font-family: "Boska-Variable";
+}
+
+.forestImg img {
+  height: 850px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr 1fr;
+
+  width: 100%;
+}
+
+.about-us  {
+  text-align: center;
+  padding: 50px;
+}
+.about-us h2{
+    color: #75FF69;
+    font-size: 24px;
+}
+.about-us .content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us p {
+  font-family: "Boska-Variable";
+  width: 70%;
+
+  text-align: center;
+  margin-left: 250px;
+  font-size: 68px;
+  line-height: 1.8;
+  position: absolute;
+  color:#678784
+}
+
+.about-us p span.highlight {
+  color: #fff;
+}
+
+#Intersect{
+    width: 100%;
+    margin-top: 160px;
 }
