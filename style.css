@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Boska-Variable";
+  src: url("fonts/Fonts/OTF/Boska-Regular.otf") format("woff2"),
+    url("fonts/Fonts/TTF/Boska-Variable.ttf") format("woff"),
+    url("fonts/Fonts/WEB/fonts/Boska-Regular.ttf") format("truetype");
+  font-weight: 200 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Switzer-Variable";
+  src: url("fonts/switzer/OTF/Switzer-Regular.otf") format("woff2"),
+    url("fonts/switzer/Variable/Switzer-Variable.ttf") format("woff"),
+    url("fonts/switzer/WEB/fonts/Switzer-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
 * {
   margin: auto;
   padding: 0;
@@ -50,4 +68,65 @@
 
 .navbar-links a:hover {
   color: #75ff69;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line-img {
+  position: absolute;
+
+  left: 100px;
+  top: -100px;
+  overflow: hidden;
+}
+
+.hero-img {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-top: 115px;
+}
+.hero-text {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  top: -50px;
+}
+.cosy {
+  font-size: 262px;
+  font-family: "Boska-Variable";
+  font-weight: 400;
+}
+.cabin {
+  font-size: 262px;
+  font-family: "Boska-Variable";
+  font-weight: 400;
+  font-style: italic;
+  position: relative;
+  left: 150px;
+  color: #75ff69;
+}
+.inthe {
+  font-size: 32px;
+  font-family: 700;
+}
+.woods {
+  font-size: 262px;
+  font-family: "Boska-Variable";
+}
+
+.hero-text p {
+  font-family: "Switzer-Variable";
+}
+
+.play-icon{
+    position: absolute;
+    bottom: 18gi0px;
+    right:60px;
 }
