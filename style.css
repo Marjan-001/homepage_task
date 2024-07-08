@@ -50,8 +50,8 @@ body {
 
 .logo-text {
   color: #75ff69;
+  font-family: "Boska-Variable";
   font-size: 29px;
-  font-family: "Arial", sans-serif;
 }
 
 .navbar-links {
@@ -348,7 +348,6 @@ input[type="submit"] {
   position: relative;
 }
 
-
 .carousel-item img {
   height: auto;
 }
@@ -366,7 +365,6 @@ input[type="submit"] {
 }
 .testimonial h3 {
   margin: 5px 0;
-
 }
 
 .testimonial p {
@@ -375,27 +373,171 @@ input[type="submit"] {
   background-clip: text;
 }
 .controls div {
- display: flex;
- gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 .control-btn {
-
   border: none;
   border-radius: 50%;
 
   font-size: 30px;
   width: 60px;
   height: 60px;
-  padding: 10px ;
+  padding: 10px;
   margin: 0 5px;
   cursor: pointer;
-  
 }
-#prev{
+#prev {
   background-color: #1b3936;
-  color:#75ff69;
+  color: #75ff69;
 }
-#next{
+#next {
   background-color: #75ff69;
   color: #1b3936;
+}
+
+.footer-container {
+  display: flex;
+  margin-top: -400px;
+  justify-content: center;
+  align-items: center;
+  height: 912px;
+  background-color: #fff;
+}
+
+.footer-upper {
+  display: flex;
+  background-color: #fff;
+  position: absolute;
+
+  width: 1440px;
+  height: 349px;
+}
+.footer-lower {
+  background-color: white;
+  position: absolute;
+  margin-top: 750px;
+  width: 100%;
+  height: 400px;
+}
+
+.footer-upper h2 {
+  font-size: 68px;
+  font-family: "Boska-Variable";
+  line-height: 88.4px;
+  color: rgba(27, 57, 54, 1);
+}
+.footer-upper p {
+  font-size: 18px;
+  font-family: "Switzer Variable";
+  line-height: 23.76px;
+  color: rgba(27, 57, 54, 1);
+}
+.footer-upper span {
+  font-size: 18px;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: thin;
+  font-family: "Switzer Variable";
+  line-height: 72px;
+  color: rgba(27, 57, 54, 1);
+  padding: 1rem;
+}
+
+.footer-lower {
+  display: flex;
+  max-width: 100%;
+}
+.footer-lower1 {
+  position: relative;
+  background-color: #75ff69;
+  width: 600px;
+  height: 320px;
+}
+.footer-lower2 {
+  background-color: #1b3936;
+  position: relative;
+  color: #fff;
+  width: 480px;
+  height: 320px;
+}
+.footer-lower3 {
+  background-color: #1b3936;
+  position: relative;
+  color: #fff;
+  width: 480px;
+  height: 320px;
+}
+
+.footer-lower1 h3 {
+  text-align: center;
+  font-size: 68px;
+  font-family: "Boska-Variable";
+  line-height: 88.4px;
+  margin-top: 100px;
+}
+.footer-lower1 img {
+  width: 43.4px;
+  height: 47.44px;
+  position: absolute;
+
+  right: 20px;
+}
+
+.footer-lower1 p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Switzer Variable";
+}
+.footer-lower2 h3 {
+  text-align: center;
+  font-size: 68px;
+  font-family: "Boska-Variable";
+  line-height: 88.4px;
+}
+
+.footer-lower2 p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Switzer Variable";
+  margin-top: 100px;
+}
+.footer-lower2 img {
+  width: 43.4px;
+  height: 47.44px;
+  position: absolute;
+
+  right: 20px;
+}
+
+.footer-lower3 h3 {
+  text-align: center;
+  font-size: 68px;
+  font-family: "Boska-Variable";
+  line-height: 88.4px;
+}
+
+.footer-lower3 p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Switzer Variable";
+  margin-top: 100px;
+}
+.footer-lower3 img {
+  width: 43.4px;
+  height: 47.44px;
+  position: absolute;
+
+  right: 20px;
+}
+
+.bottom {
+  display: flex;
+  max-width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  position: relative;
+  font-size: 18px;
+  font-family: "Switzer Variable";
 }
