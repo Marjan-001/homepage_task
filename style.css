@@ -189,13 +189,13 @@ body {
   width: 100%;
 }
 
-.about-us  {
+.about-us {
   text-align: center;
   padding: 50px;
 }
-.about-us h2{
-    color: #75FF69;
-    font-size: 24px;
+.about-us h2 {
+  color: #75ff69;
+  font-size: 24px;
 }
 .about-us .content {
   position: relative;
@@ -213,14 +213,109 @@ body {
   font-size: 68px;
   line-height: 1.8;
   position: absolute;
-  color:#678784
+  color: #678784;
 }
 
 .about-us p span.highlight {
   color: #fff;
 }
 
-#Intersect{
-    width: 100%;
-    margin-top: 160px;
+#Intersect {
+  width: 100%;
+  margin-top: 170px;
+}
+.uniqueRoom {
+  background-color: #fff;
+  margin-top: -10px;
+  height: 1496px;
+}
+.text-container {
+  max-width: 700px;
+  width: 100%;
+}
+
+.uniqueRoom h2 {
+  font-family: "Boska-Variable";
+  font-size: 68px;
+  padding: 20px;
+  text-align: left;
+}
+.cabin-Images {
+  display: flex;
+  width: 100%;
+}
+
+.signup{
+
+  position: relative;
+  text-align: center;
+}
+
+.signup img {
+
+  height: 704px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1194px;
+  padding: 5rem 4rem;
+}
+
+.text-overlay h2{
+  position: absolute;
+  font-size: 68px;
+  font-family: "Boska-Variable";
+  color: #fff;
+  
+ 
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  
+}
+
+.text-overlay p{
+ 
+  font-size: 18px;
+  font-family: "Boska-Variable";
+  color: #fff;
+ 
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  max-width: 20%;
+  transform: translate(-50%, -50%);
+
+  
+}
+
+.text-overlay form{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  
+  transform: translate(-50%, -50%);
+}
+
+#emailInput{
+
+  padding: 1rem 3rem;
+  text-align: start;
+}
+input[type=submit] {
+  background-color: #75ff69;
+  border: none;
+  color: rgba(27, 57, 54, 1)
+  ;
+  padding: 1.1rem 2rem;
+  text-decoration: none;
+ 
+  cursor: pointer;
+}
+#highlight-text{
+ color: #75ff69;
 }
