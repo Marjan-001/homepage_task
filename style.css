@@ -245,14 +245,12 @@ body {
   width: 100%;
 }
 
-.signup{
-
+.signup {
   position: relative;
   text-align: center;
 }
 
 .signup img {
-
   height: 704px;
   display: block;
   margin-left: auto;
@@ -261,61 +259,143 @@ body {
   padding: 5rem 4rem;
 }
 
-.text-overlay h2{
+.text-overlay h2 {
   position: absolute;
   font-size: 68px;
   font-family: "Boska-Variable";
   color: #fff;
-  
- 
+
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  
 }
 
-.text-overlay p{
- 
+.text-overlay p {
   font-size: 18px;
   font-family: "Boska-Variable";
   color: #fff;
- 
+
   position: absolute;
   top: 45%;
   left: 50%;
   max-width: 20%;
   transform: translate(-50%, -50%);
-
-  
 }
 
-.text-overlay form{
+.text-overlay form {
   position: absolute;
   top: 60%;
   left: 50%;
   display: flex;
   justify-items: center;
   align-items: center;
-  
+
   transform: translate(-50%, -50%);
 }
 
-#emailInput{
-
+#emailInput {
   padding: 1rem 3rem;
   text-align: start;
 }
-input[type=submit] {
+input[type="submit"] {
   background-color: #75ff69;
   border: none;
-  color: rgba(27, 57, 54, 1)
-  ;
+  color: rgba(27, 57, 54, 1);
   padding: 1.1rem 2rem;
   text-decoration: none;
- 
+
   cursor: pointer;
 }
-#highlight-text{
- color: #75ff69;
+#highlight-text {
+  color: #75ff69;
+}
+
+.testimonial-container {
+  width: 100%;
+  height: 1155px;
+
+  background-color: #fff;
+}
+
+.testimonial-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  align-items: center;
+}
+
+.testimonial-heading h2 {
+  color: #1b3936;
+  font-family: "Boska-Variable";
+  max-width: 50%;
+  font-weight: 400;
+  font-size: 68px;
+}
+.testimonial-heading p {
+  color: #1b3936;
+  font-family: "Boska-Variable";
+  max-width: 30%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.76px;
+}
+
+.testmonial-carousel {
+  display: flex;
+  overflow: hidden;
+  margin: 20px auto;
+  width: 100%;
+  position: relative;
+}
+
+
+.carousel-item img {
+  height: auto;
+}
+.testimonial {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  position: absolute;
+  bottom: 3%;
+  transform: translateX(-15%);
+  width: 330px;
+  height: 140px;
+  text-align: left;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial h3 {
+  margin: 5px 0;
+
+}
+
+.testimonial p {
+  background-image: linear-gradient(rgb(17, 17, 17), rgba(255, 255, 255, 1));
+  color: transparent;
+  background-clip: text;
+}
+.controls div {
+ display: flex;
+ gap: 10px;
+}
+.control-btn {
+
+  border: none;
+  border-radius: 50%;
+
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  padding: 10px ;
+  margin: 0 5px;
+  cursor: pointer;
+  
+}
+#prev{
+  background-color: #1b3936;
+  color:#75ff69;
+}
+#next{
+  background-color: #75ff69;
+  color: #1b3936;
 }
